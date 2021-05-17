@@ -1,0 +1,125 @@
+.panel-tag {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    border-left: 5px solid #6875f5;
+    background: #e2e5ff;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border-radius: 0px 8px 8px 0px;
+}
+label.form-label {
+    font-weight: normal;
+}
+.add-more-block .item-group .item:first-child {
+    margin-bottom: 23px;
+}
+.add-more-block a.remove-group-button {
+    display: inline-block;
+    position: relative;
+    left: 95%;
+    bottom: 30px;
+    background: #fff;
+}
+.block-separator {
+    border: 1px solid #d6d6d6;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 0px 2px 0px rgb(184 184 184);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(184,184,184,1);
+    box-shadow: 0px 0px 2px 0px rgb(184 184 184);
+}
+.response-block {
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border: 2px solid #dddddd;
+    background: #f8f8f8;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.search-content {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #d0d0d0;
+    right: 16px;
+    left: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 100;
+}
+.search-content pre {
+    margin-bottom: 0;
+}
+.response-block .response-error {
+    color: red;
+}
+.response-block .response-error span.badge,
+.response-block .response-success span.badge {
+    position: absolute;
+    transform: translate(-18px, -18px);
+    border-radius: 0;
+}
+.response-block .content pre {
+    margin-bottom: 0;
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+    z-index: 1050;
+}
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.is-hide{
+    display:none;
+}
+.api-card {
+    max-width: 400px;
+    margin: auto;
+}
+.collapse-block {
+    position: relative;
+    display: block;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.collapse-header a.header-link {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0.75rem 1.25rem;
+}
+.collapse-header a.header-link:hover {
+    color: #3490dc;
+    text-decoration: none;
+}
+.collapse-body {
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
